@@ -1,0 +1,37 @@
+Package: com.nj174.nolabels
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: NJ174
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/NoLabels.deb
+Size: 2720
+MD5sum: 809f1fc7788604bb82c1c4ed0a9349dd
+SHA1: fdac5ef790bfd5b455f0103996075a067cd2c454
+SHA256: 03e583228829814825fe1378a5a380233865c692c6e6d5da1ab6d3e9bbfb3323
+SHA512: 9202759da3926cba529355d3a407bc8c8b32f3642942f483ead2dd27c14c54df4f4e4524f4667c08ed137361faae7f428bc995015358ffb1a14d10f246ec8c6a
+Description: No app labels.
+Name: NoLabels
+SileoDepiction: https://nj174.github.io/depictions/native/com.nj174.nolabels/depiction.json
+Author: NJ174
+
+Package: com.nj174.notes
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: NJ174
+Installed-Size: 2220
+Depends: mobilesubstrate, firmware (>= 14)
+Filename: ./debians/Notes.deb
+Size: 1606032
+MD5sum: 465e1a906876ade78a33adffb8f09e26
+SHA1: a008139c0dc2505a9a9808a67ada0f63c8ddbc44
+SHA256: f35c55d6b0560103c916af5bb4e5169fb4327da965acc157df656b04df662a2f
+SHA512: 219632a220ee4f1e6b8b6d89c42222c8af39eb5cd14facae8568d660c39bb86999adcc7ba63868a48201d2d4e95901a1b266d590683f700c1d13e15aac008861
+Description: Notes on lockscreeen.
+Name: Notes
+SileoDepiction: https://nj174.github.io/depictions/native/com.nj174.notes/depiction.json
+Icon: https://nj174.github.io/assets/repo/TweakIcons/notes.png
+Author: SGWC
+

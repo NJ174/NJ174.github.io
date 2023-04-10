@@ -1,0 +1,79 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://nj174.github.io/assets/repo/Banners/RepoHeader.png",
+	"tintColor": "#2a88da",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					 "class":"DepictionMarkdownView",
+					 "markdown":"# Rootless iOS 14 - 16"
+				},
+				{
+					 "class":"DepictionSeparatorView"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Remove app labels on homescreen\n\nNo options to configure"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Information",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Version",
+					"text": "1.0",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Released",
+					"text": "4-8-23",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Developer",
+					"text": "NJ174",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Website",
+					"action": "https://nj174.github.io",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					 "title":"Discord ThePandaKing#5620",
+					 "action":"http://discordapp.com/users/873595891301376030",
+					 "class":"DepictionTableButtonView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "Changelog",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 Initial Release",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 4-8-23</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
