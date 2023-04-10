@@ -4,7 +4,7 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-        "url": "https://github.com/NJ174/NJ174.github.io/blob/main/assets/repo/Banners/RepoHeader.png?raw=true",
+        "url": "https://nj174.github.io/assets/repo/Featured/notesfeat.png",
         "title": "Notes",
         "package": "com.nj174.notes",
         "hideShadow": false
