@@ -21,15 +21,15 @@
                "screenshots":[
                   {
                      "accessibilityText":"Screenshot1",
-                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg1.PNG"
+                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg1.jpg"
                   },
                   {
                      "accessibilityText":"Screenshot2",
-                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg2.PNG"
+                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg2.jpg"
                   },
                   {
                      "accessibilityText":"Screenshot3",
-                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg3.PNG"
+                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg3.jpg"
                   }
                ],
                "itemSize":"{320, 550.8266666666667}",
