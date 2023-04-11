@@ -34,7 +34,7 @@
            },
            {
               "class":"DepictionMarkdownView",
-              "markdown":"### **Notes**"
+              "markdown":"## **Notes**"
            },
            {
               "class":"DepictionMarkdownView",
@@ -46,7 +46,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"### **Settings**"
+               "markdown":"## **Settings**"
             },
             {
                "class":"DepictionMarkdownView",
@@ -54,7 +54,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"### **Compatibility**"
+               "markdown":"## **Compatibility**"
             },
             {
                "class":"DepictionMarkdownView",
