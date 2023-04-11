@@ -13,9 +13,29 @@
            {
               "class":"DepictionSeparatorView"
            },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"### **Notes**"
+           },
+           {
+              "class":"DepictionMarkdownView",
+              "markdown":"Ever needed to quickly jot something down or make a quick grocery list? Do you forget things throughout the day? With this tweak it's difficult to forget something when it's the first thing you see on your lock screen."
+           },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"Quick notes on the lockscreen with pages\n\nTriple tap to unhide note"
+               "markdown":"### **Settings**"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"Notes adds a view to the lock screen that you can move and write on. It has many features like multiple pages, sorting, and the ability to hide the note. After a triple tap, it will reappear.\n\n•Notes Height - Text Alignment, Font Size\n\n•Notes Appearance - Accent, Title, Content, Background Color\n\n•Header Color\n\n•Border Color - Width"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"### **Compatibility**"
+            },
+            {
+               "class":"DepictionMarkdownView",
+               "markdown":"This tweak supports iOS 14 - 16 rootless jailbreaks."
             },
             {
                "screenshots":[
