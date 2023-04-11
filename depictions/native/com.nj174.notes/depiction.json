@@ -42,7 +42,7 @@
            },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"Notes adds a view to the lock screen that you can move and write on. It has many features like multiple pages, sorting, and the ability to hide the note. After a triple tap, it will reappear.\n\n•Notes Height - Text Alignment, Font Size\n\n•Notes Appearance - Accent, Title, Content, Background Color\n\n•Header Color\n\n•Border Color - Width"
+               "markdown":"Notes adds a view to the lock screen that you can move and write on. It has many features like multiple pages, sorting, and the ability to hide the note. After a triple tap, it will reappear."
             },
             {
                "class":"DepictionMarkdownView",
