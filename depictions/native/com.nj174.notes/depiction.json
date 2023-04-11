@@ -14,6 +14,25 @@
               "class":"DepictionSeparatorView"
            },
            {
+              "screenshots":[
+                 {
+                    "accessibilityText":"Screenshot1",
+                    "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg1.jpg"
+                 },
+                 {
+                    "accessibilityText":"Screenshot2",
+                    "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg2.jpg"
+                 },
+                 {
+                    "accessibilityText":"Screenshot3",
+                    "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg3.jpg"
+                 }
+              ],
+              "itemSize":"{320, 550.8266666666667}",
+              "class":"DepictionScreenshotsView",
+              "itemCornerRadius":6
+           },
+           {
               "class":"DepictionMarkdownView",
               "markdown":"### **Notes**"
            },
@@ -23,11 +42,15 @@
            },
             {
                "class":"DepictionMarkdownView",
+               "markdown":"Notes adds a view to the lock screen that you can move and write on. It has many features like multiple pages, sorting, and the ability to hide the note. After a triple tap, it will reappear.\n\n•Notes Height - Text Alignment, Font Size\n\n•Notes Appearance - Accent, Title, Content, Background Color\n\n•Header Color\n\n•Border Color - Width"
+            },
+            {
+               "class":"DepictionMarkdownView",
                "markdown":"### **Settings**"
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"Notes adds a view to the lock screen that you can move and write on. It has many features like multiple pages, sorting, and the ability to hide the note. After a triple tap, it will reappear.\n\n•Notes Height - Text Alignment, Font Size\n\n•Notes Appearance - Accent, Title, Content, Background Color\n\n•Header Color\n\n•Border Color - Width"
+               "markdown":"•Notes Height - Text Alignment, Font Size\n\n•Notes Appearance - Accent, Title, Content and Background Color\n\n•Header Color\n\n•Border Color - Width Size"
             },
             {
                "class":"DepictionMarkdownView",
@@ -36,25 +59,6 @@
             {
                "class":"DepictionMarkdownView",
                "markdown":"This tweak supports iOS 14 - 16 rootless jailbreaks."
-            },
-            {
-               "screenshots":[
-                  {
-                     "accessibilityText":"Screenshot1",
-                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg1.jpg"
-                  },
-                  {
-                     "accessibilityText":"Screenshot2",
-                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg2.jpg"
-                  },
-                  {
-                     "accessibilityText":"Screenshot3",
-                     "url":"https://nj174.github.io/assets/repo/Screenshots/notesimg3.jpg"
-                  }
-               ],
-               "itemSize":"{320, 550.8266666666667}",
-               "class":"DepictionScreenshotsView",
-               "itemCornerRadius":6
             },
             {
                "class":"DepictionSeparatorView"
