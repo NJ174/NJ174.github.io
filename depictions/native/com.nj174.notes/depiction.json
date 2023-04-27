@@ -58,7 +58,7 @@
             },
             {
                "class":"DepictionMarkdownView",
-               "markdown":"This tweak supports iOS 14 - 16 rootless jailbreaks."
+               "markdown":"This tweak has been tested and working on Dopamine iOS 15.1 and Palera1n 16.4.1 rootless."
             },
             {
                "class":"DepictionSeparatorView"
