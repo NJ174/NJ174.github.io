@@ -35,3 +35,20 @@ SileoDepiction: https://nj174.github.io/depictions/native/com.nj174.notes/depict
 Icon: https://nj174.github.io/assets/repo/TweakIcons/notes.png
 Author: SGWC
 
+Package: com.nj174.quietautomations
+Architecture: iphoneos-arm64
+Version: 1.0-3+debug
+Section: Tweaks
+Maintainer: NJ174
+Installed-Size: 72
+Depends: firmware (>=13.0)
+Filename: ./debians/QuietAutomations.deb
+Size: 1872
+MD5sum: d6612caacb440aefe7aa865147c6c17a
+SHA1: a705e717ddd5aa2c09a7251af10fa61a529d299c
+SHA256: 74b201412173eee5dd74fadc44fd5e4b3bcccc309688d4b874663fff87f0cdec
+SHA512: 0520fa7e226f03961a26d93cc783d57794a08a77510893f81ebb40002b17625d312f1cb2438aeec1dfde032dad3af0b831a119388424440e6395a4fc16cd1eee
+Description: Remove "Running your automation" notification.
+Name: QuietAutomations
+Author: NJ174
+
