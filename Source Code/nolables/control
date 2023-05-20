@@ -1,0 +1,10 @@
+Package: com.nj174.nolabels
+Name: NoLabels
+Version: 1.0
+Architecture: iphoneos-arm
+Description: No app labels.
+SileoDepiction: https://nj174.github.io/depictions/native/com.nj174.nolabels/depiction.json
+Maintainer: NJ174
+Author: NJ174
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
