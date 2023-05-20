@@ -1,0 +1,12 @@
+Package: com.nj174.notes
+Name: Notes
+Architecture: iphoneos-arm64
+Description: Notes on lockscreeen.
+SileoDepiction: https://nj174.github.io/depictions/native/com.nj174.notes/depiction.json
+Icon: https://nj174.github.io/assets/repo/TweakIcons/notes.png
+Maintainer: NJ174
+Author: SGWC
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14)
+Version: 1.0
+Installed-Size: 2220

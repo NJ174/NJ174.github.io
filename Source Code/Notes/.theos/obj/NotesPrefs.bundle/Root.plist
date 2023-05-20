@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>ENABLE</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>cellClass</key>
+				<string>LASwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>key</key>
+				<string>enableNotes</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+				<key>label</key>
+				<string>Enable Notes</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>General</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>cellClass</key>
+				<string>LASliderCell</string>
+				<key>default</key>
+				<string>150</string>
+				<key>min</key>
+				<string>90</string>
+				<key>max</key>
+				<string>300</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>key</key>
+				<string>notesHeight</string>
+				<key>isSegmented</key>
+				<false/>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+				<key>label</key>
+				<string>Notes Height</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>LAContextMenuCell</string>
+				<key>title</key>
+				<string>Text Alignment</string>
+				<key>defaults</key>
+			    <string>com.nj174.notesprefs</string>
+			    <key>key</key>
+			    <string>notesTextAlignment</string>
+				<key>default</key>
+                <integer>0</integer>
+				<key>validTitles</key>
+				<array>
+					<string>Left</string>
+					<string>Center</string>
+					<string>Right</string>
+				</array>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>LAContextMenuCell</string>
+				<key>title</key>
+				<string>Font Size</string>
+				<key>defaults</key>
+			    <string>com.nj174.notesprefs</string>
+			    <key>key</key>
+			    <string>notesFontSize</string>
+				<key>default</key>
+                <integer>0</integer>
+				<key>validTitles</key>
+				<array>
+					<string>14</string>
+					<string>15</string>
+					<string>16</string>
+					<string>17</string>
+					<string>18</string>
+					<string>19</string>
+					<string>20</string>
+					<string>21</string>
+					<string>22</string>
+					<string>23</string>
+					<string>24</string>
+				</array>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Appearance</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>LAContextMenuCell</string>
+				<key>title</key>
+				<string>Notes Appearance</string>
+				<key>defaults</key>
+			    <string>com.nj174.notesprefs</string>
+			    <key>key</key>
+			    <string>notesAppearance</string>
+				<key>default</key>
+                <integer>0</integer>
+				<key>validTitles</key>
+				<array>
+					<string>Dynamic Blur</string>
+					<string>Custom Colour</string>
+				</array>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>LAColorPickerCell</string>
+				<key>title</key>
+				<string>Accent Colour</string>
+				<key>fallback</key>
+				<string>FFD60A</string>
+				<key>supportAlpha</key>
+				<true/>
+				<key>key</key>
+				<string>accentColour</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>LAColorPickerCell</string>
+				<key>title</key>
+				<string>Title Colour</string>
+				<key>fallback</key>
+				<string>FFFFFF</string>
+				<key>supportAlpha</key>
+				<true/>
+				<key>key</key>
+				<string>notesTitleColour</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>LAColorPickerCell</string>
+				<key>title</key>
+				<string>Content Colour</string>
+				<key>fallback</key>
+				<string>FFFFFF</string>
+				<key>supportAlpha</key>
+				<true/>
+				<key>key</key>
+				<string>notesContentColour</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>LAColorPickerCell</string>
+				<key>title</key>
+				<string>Background Colour</string>
+				<key>fallback</key>
+				<string>000000</string>
+				<key>supportAlpha</key>
+				<true/>
+				<key>key</key>
+				<string>notesBackgroundColour</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Header</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>cellClass</key>
+				<string>LASwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>key</key>
+				<string>enableHeaderColour</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+				<key>label</key>
+				<string>Enable Header Colour</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>LAColorPickerCell</string>
+				<key>title</key>
+				<string>Header Colour</string>
+				<key>fallback</key>
+				<string>FFD60A</string>
+				<key>supportAlpha</key>
+				<true/>
+				<key>key</key>
+				<string>notesHeaderColour</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Border</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>cellClass</key>
+				<string>LASwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>key</key>
+				<string>enableBorderColour</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+				<key>label</key>
+				<string>Enable Border</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>cellClass</key>
+				<string>LASliderCell</string>
+				<key>default</key>
+				<string>1</string>
+				<key>min</key>
+				<string>1</string>
+				<key>max</key>
+				<string>10</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>key</key>
+				<string>notesBorderWidth</string>
+				<key>isSegmented</key>
+				<false/>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+				<key>label</key>
+				<string>Border Width</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>LAColorPickerCell</string>
+				<key>title</key>
+				<string>Border Colour</string>
+				<key>fallback</key>
+				<string>FFD60A</string>
+				<key>supportAlpha</key>
+				<true/>
+				<key>key</key>
+				<string>notesBorderColour</string>
+				<key>defaults</key>
+				<string>com.nj174.notesprefs</string>
+				<key>PostNotification</key>
+				<string>com.nj174.notesprefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerAlignment</key>
+				<integer>1</integer>
+				<key>footerText</key>
+				<string>Credits go to @SouthGalWhoCode</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string>Notes</string>
+	</dict>
+</plist>
